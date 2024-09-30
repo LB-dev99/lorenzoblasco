@@ -1,7 +1,6 @@
 ---
-const title = "Projects";
-const subtitle = "Some Projects";
-
+const title = "Lavori";
+const subtitle = "Alcuni dei progetti e lavori portati a termine con successo. ";
 import Layout from "../layouts/Layout.astro";
 
 import HeaderSmall from "../components/HeaderSmall.astro";
@@ -14,6 +13,8 @@ type Props = {
   body: string;
   type?: string;
   repo?: string;
+  image?: string; // Aggiungi il prop image
+  collab?: string;
 };
 ---
 
@@ -33,6 +34,8 @@ type Props = {
                     about: string;
                     repo?: string;
                     type?: string;
+                    image?: string; // Aggiungi il prop image
+                    collab?: string;
                   },
                   index: number
                 ) => {
@@ -43,6 +46,8 @@ type Props = {
                       body={value.about}
                       type={value.type}
                       repo={value.repo}
+                      image={value.image}
+                      collab={value.collab}
                     />
                   );
                 }
