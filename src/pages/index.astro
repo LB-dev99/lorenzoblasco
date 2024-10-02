@@ -1,20 +1,21 @@
 ---
 import Layout from "../layouts/Layout.astro";
-
+import Hero from "../components/energy/sections/hero/Hero.astro";
 import Header from "../components/Header.astro";
 import CTA from "../components/CTA.astro";
 import FeatureList from "../components/FeatureList.astro";
-
 import Timeline from "../components/Timeline.astro";
 
 import data from "../data/site.json";
+import KeyServices from "../components/energy/sections/services/KeyServices.astro";
 ---
 
 <Layout title={data.siteName}>
   <main>
     <Header />
     <CTA />
-    <FeatureList />
+<!--     <FeatureList /> -->
+    <KeyServices />
   <!--   <Timeline /> -->
   </main>
 </Layout>
