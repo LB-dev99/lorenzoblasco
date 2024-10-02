@@ -35,7 +35,7 @@
       "about": "Risoluzione di una criticità termica, garantendo un raffreddamento efficace del locale mensa e migliorando il comfort per gli utenti.",
       "type": "Climatizzazione",
       "repo": "https://climasolservice.it/",
-      "image": "public/seminario.png",
+      "image": "seminario.png",
       "collab": "Collaborazione: Climasolservice Srl"
     },
     {
@@ -54,7 +54,7 @@
       "about": "Sviluppo di un progetto completo per un impianto fotovoltaico; fornito installato e allacciato.",
       "type": "IoT, Gestione dei Dati, Ingegneria Civile",
       "repo": "https://climasolservice.it/",
-      "image": "public/Fotovoltaico.jpeg",
+      "image": "Fotovoltaico.jpeg",
       "collab": "Collaborazione: Climasolservice Srl"
     },
     {
