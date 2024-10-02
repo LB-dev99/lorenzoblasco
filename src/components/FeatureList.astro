@@ -3,6 +3,17 @@ import Heading from "./Heading.astro";
 
 const heading = "Alcune cose di cui mi occupo";
 
+const icon = [
+  "icons/progettazione.png",
+  "icons/cantiere.png",
+  "icons/consulenza.png",
+  "icons/sicurezza.png",
+  "icons/certificazioni.png",
+  "icons/enviroment.png"
+
+
+]
+
 const sections = [
   "Progettazione e Pianificazione",
   "Direzione Lavori e Gestione Cantiere",
@@ -13,12 +24,12 @@ const sections = [
 ];
 
 const sectionsText = [
-  "Dalla prima idea alla realizzazione del progetto. Offro servizi di progettazione architettonica, strutturale e impiantistica, garantendo soluzioni innovative e sostenibili.(Studi di fattibilità, Progettazione esecutiva CAD e BIM, calcoli strutturali)",
-  "Seguo da vicino ogni fase del cantiere, assicurando la qualità dei lavori, il rispetto dei tempi e del budget.(Coordinamento della sicurezza, gestione delle forniture, controllo qualità, collaudi, contabilità lavori)",
-  "Metto a disposizione la mia esperienza per risolvere problematiche tecniche complesse e fornire consulenze specializzate.(Perizie tecniche, diagnosi di patologie edilizie, diagnosi energetiche, supporto alle imprese, analisi dei rischi)",
-  "Garantisco la massima sicurezza sul lavoro e il rispetto dell'ambiente.(Valutazione dei rischi, piani di sicurezza e coordinamento della sicurezza)",
-  "Fornisco certificazioni e ti accompagno nell'iter burocratico, semplificando le procedure e ottenendo le necessarie autorizzazioni.(APE, Enea, Allaccio Fotovoltaico, Pratiche edilizie, Certificazioni energetiche, collaudi statici, pratiche catastali)",
-  "Sono sempre alla ricerca di soluzioni innovative e sostenibili per rispondere alle esigenze di un mondo in continua evoluzione.(Progettazione di edifici a basso impatto ambientale, utilizzo di materiali eco-compatibili, implementazione di sistemi di domotica, progettazione di impianti fotovoltaici)"
+  "Offro soluzioni innovative per progetti architettonici, strutturali e impiantistici, dal concept alla realizzazione.",
+  "Supervisiono lavori garantendo qualità, tempi e budget.",
+  "Risolvo problemi complessi e fornisco supporto specializzato.",
+  "Assicuro sicurezza sul lavoro e rispetto delle norme ambientali.",
+  "Semplifico pratiche burocratiche e rilascio certificazioni necessarie.",
+  "Progetto edifici ecocompatibili con materiali e tecnologie avanzate."
 ];
 ---
 
@@ -33,6 +44,7 @@ const sectionsText = [
           return (
             <div class="flex flex-col">
               <div class="mt-6">
+                <img class="scale-50" src={icon[sections.indexOf(section)]}> 
                 <h3 class="text-lg font-medium text-gray-900 dark:text-white">
                   {sections[sections.indexOf(section)]}
                 </h3>
