@@ -19,8 +19,8 @@ const { href, projectTitle, body, type, repo, image, collab } = Astro.props;
 <div
   class="bg-gray-50 dark:bg-gray-900 border border-gray-200 shadow-lg dark:border-gray-700 rounded-lg"
 >
-<img class="w-full dark:hidden border-solid border-2" src={image} alt="dashboard image">
-<img class="w-full hidden dark:block" src={image} alt="dashboard image">
+<img class="w-full dark:hidden border-solid border-2" src={image} alt="dashboard">
+<img class="w-full hidden dark:block" src={image} alt="dashboard">
   <div class="px-8 py-8">
   {
     type && (
@@ -36,6 +36,6 @@ const { href, projectTitle, body, type, repo, image, collab } = Astro.props;
     {body}
   </p>
 <!--   <ButtonGroup text1="More Info" href1={href} text2="Code Repo" href2={repo}  /> -->
-{collab && <Badge title={collab}></Badge>}
+{collab && <a class="hover:underline" href={repo}><Badge title={collab} ></a></Badge>}
 
 </div>

@@ -1,11 +1,11 @@
 {
   "owner": "Lorenzo Blasco",
   "siteName": "Lorenzo Blasco",
-  "siteDescription": "Scopri come posso aiutarti",
-  "about": "Blasco Engineering è una società di ingegneria con sede a Catania, Italia, che offre soluzioni ingegneristiche di alta qualità in diversi settori.",
+  "siteDescription": "Progettazione e soluzioni complete per ogni esigenza.",
+  "about": "Lorenzo Blasco è un Ingegnere abilitato con sede a Catania, Italia, che offre soluzioni ingegneristiche di alta qualità in diversi settori.",
   "contact": {
     "email": "lorenzoblasco99@gmail.com",
-    "phone": "+39 095-1234567",
+    "phone": "+39 095436952",
     "address": "Via Vittorio Emanuele Orlando, 162, 95127 Catania, Italia"
   },
   "pages": [
@@ -24,10 +24,6 @@
   ],
   "social": [
     {
-      "title": "GitHub",
-      "href": "https://github.com/blascoengineering"
-    },
-    {
       "title": "LinkedIn",
       "href": "https://www.linkedin.com/in/lorenzo-blasco/"
     }
@@ -38,26 +34,26 @@
       "href": "",
       "about": "Risoluzione di una criticità termica, garantendo un raffreddamento efficace del locale mensa e migliorando il comfort per gli utenti.",
       "type": "Climatizzazione",
-      "repo": "https://github.com",
-      "image": "https://lh3.googleusercontent.com/p/AF1QipNv9n4rCZ0WcJTcsQTmlfU7R7eqOZVUeT_B56Qg=s680-w680-h510",
+      "repo": "https://climasolservice.it/",
+      "image": "src/assets/seminario.png",
       "collab": "Collaborazione: Climasolservice Srl"
     },
     {
       "projectTitle": "Guardia di Finanza, Nuova Sede Nucleo Polizia Economico-Finanziaria - Catania ",
       "href": "",
       "about": "Calcolo e progettazione dell'impianto antincendio della struttura adeguato al fine del DVR completo di gestione delle pratiche burocratiche.",
-      "repo": "https://github.com",
+      "repo": "https://www.ingclaudiofranchina.it/",
       "type": "Progetto e prevenzione incendi",
       "image": "https://www.libertasicilia.it/cms/wp-content/uploads/2024/04/Catania.-Inaugurata-la-nuova-sede-del-nucleo-di-Polizia.jpg",
       "featured": true,
-      "collab": "Collaborazione: Studio Ing. Franchina"
+      "collab": "Collaborazione: Studio Tecnico Ing. Franchina"
     },
     {
       "projectTitle": "Privato - Fotovoltaico Residenziale",
       "href": "",
       "about": "Sviluppo di un progetto completo per un impianto fotovoltaico; fornito installato e allacciato.",
       "type": "IoT, Gestione dei Dati, Ingegneria Civile",
-      "repo": "https://github.com",
+      "repo": "https://climasolservice.it/",
       "image": "src/assets/Fotovoltaico.jpeg",
       "collab": "Collaborazione: Climasolservice Srl"
     },
@@ -66,9 +62,9 @@
       "href": "project/seismic-retrofitting",
       "about": "Progettazione e computazione di lavori di manutenzione straordinaria per dei lavori mirati al riutilizzo di servizi e locali inagibili.",
       "type": "Ingegneria Strutturale, Ingegneria Civile",
-      "repo": "https://github.com",
+      "repo": "https://www.ingclaudiofranchina.it/",
       "image": "https://www.gdmed.it/wp-content/uploads/2022/09/inaugurazione-varco-itaer-ferrarin-catania.jpeg",
-      "collab": "Collaborazione: Studio Ing. Franchina"
+      "collab": "Collaborazione: Studio Tecnico Ing. Franchina"
       
     }
   ]
